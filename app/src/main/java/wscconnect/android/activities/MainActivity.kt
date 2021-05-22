@@ -207,7 +207,7 @@ class MainActivity : AppCompatActivity() {
                 navigation?.selectedItemId = R.id.navigation_apps
             }
         }
-        Handler(Looper.getMainLooper()).postDelayed({ checkForUpdates(this) }, 3000)
+        checkForUpdates(this)
     }
 
     private fun showPrivacyDialog() {
