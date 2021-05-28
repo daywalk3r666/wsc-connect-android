@@ -10,8 +10,8 @@ android {
         applicationId 'wscconnect.android'
         minSdkVersion 23
         targetSdkVersion 30
-        versionCode 603
-        versionName '6.0.3'
+        versionCode 604
+        versionName '6.0.4'
         resConfigs 'en', 'de'
         setProperty('archivesBaseName', 'WSC-Reloaded_' + versionName)
     }
@@ -66,7 +66,7 @@ dependencies {
     implementation 'com.google.firebase:firebase-messaging:22.0.0'
     implementation 'com.google.firebase:firebase-core:19.0.0'
     implementation 'com.google.android.material:material:1.4.0-beta01'
-	implementation 'com.google.code.gson:gson:2.8.6'
+	implementation 'com.google.code.gson:gson:2.8.7'
 
     // Volley HTTP //
     implementation 'com.android.volley:volley:1.2.0'
