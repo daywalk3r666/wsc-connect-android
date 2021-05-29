@@ -3,15 +3,15 @@ apply plugin: 'kotlin-android'
 apply plugin: 'com.google.gms.google-services'
 
 android {
-    compileSdkVersion 30
-    buildToolsVersion '30.0.3'
+    compileSdkVersion 'android-S'
+    buildToolsVersion '31.0.0 rc1'
 
     defaultConfig {
         applicationId 'wscconnect.android'
         minSdkVersion 23
-        targetSdkVersion 30
-        versionCode 604
-        versionName '6.0.4'
+        targetSdkVersion 31
+        versionCode 605
+        versionName '6.0.5'
         resConfigs 'en', 'de'
         setProperty('archivesBaseName', 'WSC-Reloaded_' + versionName)
     }
